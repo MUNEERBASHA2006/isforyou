@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>IsfoRyou</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>IsfoRyou</h1>
+        <p>Practice real-life communication with confidence</p>
+
+        <div class="scenarios">
+            <button onclick="selectScenario('Interview')">Interview</button>
+            <button onclick="selectScenario('Presentation')">Presentation</button>
+            <button onclick="selectScenario('Casual Talk')">Casual Talk</button>
+        </div>
+
+        <div class="chat-box">
+            <div id="chat"></div>
+        </div>
+
+        <input type="text" id="userInput" placeholder="Type your response...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
